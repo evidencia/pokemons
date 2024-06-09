@@ -1,0 +1,22 @@
+/** @format */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #f1f5fa;
+  --text-body: #404B7F
+  --button-color: #EA686D
+}
+
+@layer base {
+  * {
+    @apply box-border;
+  }
+
+  body {
+    color: var(--text-body);
+    background: var(--background);
+  }
+}
